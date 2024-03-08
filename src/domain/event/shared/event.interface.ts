@@ -1,4 +1,4 @@
-export default interface Event {
+export default interface IEvent {
   dateTimeOcurred: Date;
   data: unknown;
 }
