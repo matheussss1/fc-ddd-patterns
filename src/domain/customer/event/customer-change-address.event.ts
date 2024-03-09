@@ -1,5 +1,5 @@
-import Customer from "../../../entity/customer";
-import IEvent from "../event.interface";
+import IEvent from "../../shared/event/event.interface";
+import Customer from "../entity/customer";
 
 export default class CustomerChangeAddressEvent implements IEvent {
   dateTimeOcurred: Date;
